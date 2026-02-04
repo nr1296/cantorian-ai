@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+    background-color: #FAF9F7;
+  }
+}
+
+@layer components {
+  .serif-heading {
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-md;
+  }
+
+  .pill-button {
+    @apply rounded-full px-6 py-3 transition-all duration-200;
+  }
+}
