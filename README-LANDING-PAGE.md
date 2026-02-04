@@ -1,11 +1,11 @@
 # StopLossAI Landing Page
 
-Enterprise-grade landing page for showcasing AI-powered stop-loss insurance underwriting workflows to potential partners.
+Professional landing page for showcasing a quote generation platform to stop-loss insurance underwriting firms during customer discovery.
 
 ## Quick Start
 
 ### Option 1: Open Directly in Browser (Fastest)
-Simply double-click `landing-page.html` to open it in your browser. No installation or build required!
+Simply double-click `landing-page.html` to open it in your browser. No installation or build required.
 
 ### Option 2: Local Server (Recommended for presentation)
 ```bash
@@ -20,27 +20,24 @@ Then open `http://localhost:8000/landing-page.html`
 
 ## Features
 
-### 🎯 **Thoughtful AI Agent Offerings**
+### Core Platform Capabilities
 
-1. **Census Analysis Agent** - Validates and analyzes employee census data with risk segmentation
-2. **Quote Generation Agent** - Automated quote generation with dynamic pricing models
-3. **Claims Analytics Agent** - Predictive modeling for claims trends and risk scoring
-4. **Renewal Underwriting Agent** - Experience rating and rate recommendations
-5. **Medical Underwriting Agent** - Condition coding and risk stratification
-6. **Document Intelligence Agent** - OCR and automated data extraction from submissions
+1. **Generate Quotes** - Integrate with existing risk models via API, automated census validation, multi-carrier comparison, and complete audit trails
+2. **Requote Past Clients** - Historical quote repository, claims experience updates, census delta analysis, and rate change attribution
+3. **Collaborate Efficiently** - Shared workspaces, comment tools, version control, and activity logs
 
-### 💼 **Enterprise-Grade Design**
-- Professional, modern UI with Tailwind CSS
+### Enterprise-Grade Design
+- Professional, business-focused UI with Tailwind CSS
 - Responsive design (mobile, tablet, desktop)
-- Smooth animations and hover effects
-- Industry-appropriate color scheme (blues, professional typography)
-- Clear call-to-actions for demo requests
+- Subdued animations appropriate for financial services
+- Industry-appropriate color scheme and typography
+- Clear, professional call-to-actions
 
-### 📊 **Key Messaging**
-- Addresses the "spreadsheet problem" directly
-- Quantifiable benefits (90% faster, 99.9% accuracy, 10x capacity)
-- Industry-specific language (stop-loss, census data, specific deductibles, run-out factors)
-- Clear value proposition: migration from spreadsheets to AI workflows
+### Key Messaging
+- Addresses inefficiencies in manual underwriting processes
+- Focus on integration with existing risk models
+- Professional tone suitable for underwriters and financial analysts
+- Clear value proposition: modern platform for quote generation and collaboration
 
 ## Customization
 
