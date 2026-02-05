@@ -1,10 +1,11 @@
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply font-sans antialiased;
     background-color: #FAF9F7;
@@ -21,6 +22,11 @@
   }
 
   .pill-button {
-    @apply rounded-full px-6 py-3 transition-all duration-200;
+    @apply rounded-full px-6 py-3 transition-all duration-300;
+  }
+
+  .pill-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(43, 76, 126, 0.3);
   }
 }
